@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaTech Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero-section" id="home">
+    <nav class="navbar">
+      <div class="logo">NovaTech</div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="tagline">Modern Web Experiences</p>
+        <h1>Build Stunning Websites That Grow Your Brand</h1>
+        <p class="hero-description">
+          We create responsive, fast, and beautiful digital experiences that
+          help businesses stand out online and connect with more customers.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#contact" class="btn primary-btn">Get Started</a>
+          <a href="#features" class="btn secondary-btn">Explore Features</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-box">
+            <h3>120+</h3>
+            <p>Projects Delivered</p>
+          </div>
+          <div class="stat-box">
+            <h3>98%</h3>
+            <p>Client Satisfaction</p>
+          </div>
+          <div class="stat-box">
+            <h3>24/7</h3>
+            <p>Support System</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="floating-card">
+          <span class="small-badge">New</span>
+          <h3>Launch Faster</h3>
+          <p>
+            Create clean and professional websites with modern layouts,
+            animations, and mobile responsiveness.
+          </p>
+          <div class="card-circles">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="features-section" id="features">
+    <div class="section-title">
+      <p>Why Choose Us</p>
+      <h2>Everything You Need In One Powerful Website</h2>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="icon">⚡</div>
+        <h3>Fast Performance</h3>
+        <p>
+          Lightning-fast loading speed for better user experience and stronger
+          engagement.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon">🎨</div>
+        <h3>Modern Design</h3>
+        <p>
+          Clean layouts, premium colors, and beautiful sections that impress
+          visitors instantly.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon">📱</div>
+        <h3>Fully Responsive</h3>
+        <p>
+          Your website looks perfect on desktop, tablet, and mobile devices.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon">🔒</div>
+        <h3>Secure Structure</h3>
+        <p>
+          Built with clean and reliable code structure for smooth functionality.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon">🚀</div>
+        <h3>Growth Ready</h3>
+        <p>
+          Designed to support your business growth with scalable layouts and
+          sections.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon">💡</div>
+        <h3>Creative Ideas</h3>
+        <p>
+          We combine creativity and usability to give your brand a unique
+          presence online.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section" id="about">
+    <div class="about-image">
+      <div class="about-box">
+        <h3>Creative. Professional. Reliable.</h3>
+      </div>
+    </div>
+
+    <div class="about-content">
+      <p class="section-tag">About Us</p>
+      <h2>We Build Websites That Make a Strong First Impression</h2>
+      <p>
+        A great landing page is more than just colors and text. It is about
+        structure, user experience, and clear communication. Our goal is to
+        help brands create impactful websites that look premium and perform
+        smoothly.
+      </p>
+      <p>
+        From startup pages to business websites, we focus on responsive design,
+        strong visuals, and engaging sections that improve trust and conversion.
+      </p>
+      <a href="#contact" class="btn primary-btn">Work With Us</a>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="section-title">
+      <p>Contact Us</p>
+      <h2>Let’s Build Something Amazing Together</h2>
+    </div>
+
+    <form class="contact-form" id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea
+        id="message"
+        rows="6"
+        placeholder="Your Message"
+        required
+      ></textarea>
+      <button type="submit" class="btn primary-btn">Send Message</button>
+      <p id="formMessage" class="form-message"></p>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <h3>NovaTech</h3>
+      <p>Creating elegant and high-performance websites for modern brands.</p>
+    </div>
+    <p class="footer-bottom">© 2026 NovaTech. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
