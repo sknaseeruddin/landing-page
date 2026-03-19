@@ -6,6 +6,8 @@ This is a modern and responsive **Landing Page** built using HTML, CSS, and Java
 It is designed to provide a clean UI and smooth user experience across all devices.
 
 ---
+## 📸 Screenshot
+![Landing Page Screenshot](Task1.png)
 
 ## 🚀 Features
 
